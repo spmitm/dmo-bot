@@ -1,0 +1,23 @@
+{
+  "name": "dmo-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp chatbot starter for District Disaster Management Office menu flow.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "chatbot",
+    "disaster-management",
+    "meta-cloud-api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}
